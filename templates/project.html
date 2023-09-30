@@ -1,0 +1,78 @@
+{% include 'header.html' %}
+<section class="section-2l" id="Projects">
+    <div class="project_heading">
+        <hr>
+        <h1>Projects</h1>
+    </div><hr>
+    <div class="projectinfo">
+        <div class="project_text">
+            <h1>Stock Market Analysis and Prediction</h1>
+            <p>This project is driven by the goal of creating a prototype that can assist investors, traders, and financial analysts in making informed decisions. Key components of the project include data collection, pre-processing, data fetching, visualization, and predictive modelling.
+            </p>
+        </div>
+        <div class="project_image">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="{{ url_for('static', filename='images/stock.jpg') }}" alt="Avatar">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Stock Market Analysis and Prediction</h1> 
+                    <!-- <p>Architect & Engineer</p> 
+                    <p>Click below for project</p> -->
+                    <i><a href="">Github link</a></i>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="projectinfo">
+        <div class="project_text-2">
+            <h1>Medical Cost Prediction</h1>
+            <p>The purpose of this project is to determine the contributing factors and predict Medical cost by performing exploratory data analysis and predictive modeling on the Health Insurance dataset. This project makes use of Numpy, Pandas, Sci-kit learn, and Visualization libraries.
+            </p>
+        </div>
+        <div class="project_image-2">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="{{ url_for('static', filename='images/medical.jpg') }}" alt="Avatar">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Medical cost Prediction</h1> 
+                    <!-- <p>Architect & Engineer</p> 
+                    <p>Click below for project</p> -->
+                    <i><a href="">Github link</a></i>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="projectinfo">
+        <div class="project_text">
+            <h1>Sentiment Analysis</h1>
+            <p>The main motive behind this project is to classify whether the given feedback or review in textual context is positive or negative. Reviews can be given to the model and it classifies the review as a negative review or a positive.
+            </p>
+        </div>
+        <div class="project_image">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="{{ url_for('static', filename='images/Sentiments.png') }}" alt="Avatar">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Sentiment Analysis</h1> 
+                    <!-- <p>Architect & Engineer</p> 
+                    <p>Click below for project</p> -->
+                    <i><a href="">Github link</a></i>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+</section>
+
+{% include 'footer.html' %}
